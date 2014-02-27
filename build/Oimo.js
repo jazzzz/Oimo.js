@@ -9,6 +9,10 @@
 
 var OIMO = { REVISION: 'DEV.1.1.0a' };
 
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports = OIMO;
+}
+
 OIMO.SHAPE_SPHERE = 0x1;
 OIMO.SHAPE_BOX = 0x2;
 
